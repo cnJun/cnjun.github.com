@@ -1,12 +1,12 @@
 var blog=angular.module('blog',['ngRoute','ngResource','ngSanitize','checklist-model','angularMoment']);
 //###########站点配置
 blog.constant('blogConfig',{
-    "site_name":"罗飞的技术分享博客",
+    "site_name":"cnjun's blog",
     "pagesize":10,//每页显示文章数
-    "duoshuo_domain":"luofeico",//多说评论，你在多说上申请的二级域名
-    "categories":["PHP","ThinkPHP","服务器","数据库","前端","HTML5","CSS","javascript","jQuery","bootstrap","angularjs","phonegap","go","python","工具","编辑器"],
-    "AVOS_ID":"l33c40ot1nhdgzkc5ljh2dzn2i8z4jaxlr40zyhmqbxjc1lp",
-    "AVOS_KEY":"fzho7uxsmpqwsvvopblxyd3ma6d25u999ena17hyuid7865y",
+    "duoshuo_domain":"cnjun",//多说评论，你在多说上申请的二级域名
+    "categories":["JAVA","C++","服务器","数据库","前端","HTML5","CSS","javascript","jQuery","bootstrap","angularjs","phonegap","go","python","工具","编辑器"],
+    "AVOS_ID":"ky7ge6p0mwcn1duufvk9l3mzyqipnf3t0to5q7n2u9jif04l",
+    "AVOS_KEY":"km92zeuo80spboegnhmdvkl6luyz2w7viq46njcdom6s5o2f",
     "header_pics":[
         {name:"图片1",url:"/image/header_pic/1.png"},
         {name:"图片2",url:"/image/header_pic/2.png"},
